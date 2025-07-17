@@ -153,7 +153,20 @@ export const HeroSection = (): JSX.Element => {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden bg-gray-900">
+      {/* Background Video */}
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+      >
+        <source src="/573258_Business_Stock_1920x1080.mp4" type="video/mp4" />
+      </video>
+      
+      {/* Dark overlay for better text readability */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
+      
       {/* Flux BRVM */}
       <div className="absolute top-0 left-0 w-full z-50">
         <div className="flex w-full">
@@ -224,7 +237,7 @@ export const HeroSection = (): JSX.Element => {
         </button>
       </div>
 
-      <div className="relative h-full w-full flex flex-col">
+      <div className="relative h-full w-full flex flex-col z-20">
         <div className="w-[120px] h-[80px] mt-[4px] ml-[347px] flex items-center justify-center">
           <img 
             src="/logo everest.png" 
