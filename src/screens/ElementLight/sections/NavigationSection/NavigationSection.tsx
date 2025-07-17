@@ -11,6 +11,7 @@ import {
   NavigationMenuList,
 } from "../../../../components/ui/navigation-menu";
 import { ModalNotreSociete } from "../ModalNotreSociete";
+import { FluxBRVM } from "../../_components/FluxBRVM";
 
 export const NavigationSection = (): JSX.Element => {
   const [showSearch, setShowSearch] = useState(false);
@@ -236,12 +237,14 @@ export const NavigationSection = (): JSX.Element => {
             aria-hidden="true"
           />
         )}
+      <FluxBRVM />
       </header>
 
       <ModalNotreSociete 
         open={openNotreSociete} 
         onClose={() => setOpenNotreSociete(false)} 
       />
+
     </>
   );
 };

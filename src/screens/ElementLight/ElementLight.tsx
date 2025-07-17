@@ -7,14 +7,12 @@ import { NewsSection } from './sections/NewsSection/NewsSection';
 import { ContactSection } from './sections/ContactSection/ContactSection';
 import { MapSection } from './sections/MapSection/MapSection';
 import { FooterSection } from './sections/FooterSection/FooterSection';
-import { FluxBRVM } from './_components/FluxBRVM';
 import { ServicesSection } from './sections/ServicesSection/ServicesSection';
 
 const ElementLight: React.FC = () => (
   <>
     <HeroSection />
     <NavigationSection />
-    <FluxBRVM />
     <AboutUsSection />
     <ServicesSection />
     <TeamProfiles />
