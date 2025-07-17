@@ -18,7 +18,7 @@ interface ActionButton {
   primary?: boolean;
 }
 
-export const TestimonialsSection = (): JSX.Element => {
+export const CompanyInfoSection = (): JSX.Element => {
   // Company achievements and statistics
   const statistics: Statistic[] = [
     {
@@ -199,4 +199,4 @@ export const TestimonialsSection = (): JSX.Element => {
       </div>
     </section>
   );
-};
+}; 

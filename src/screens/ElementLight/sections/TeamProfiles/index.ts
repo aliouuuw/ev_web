@@ -1,0 +1,1 @@
+export { TeamProfiles } from "./TeamProfiles";

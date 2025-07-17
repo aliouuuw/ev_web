@@ -1,28 +1,27 @@
-import React from 'react';
 import { NavigationSection } from './sections/NavigationSection/NavigationSection';
 import { HeroSection } from './sections/HeroSection/HeroSection';
 import { AboutUsSection } from './sections/AboutUsSection/AboutUsSection';
-import { ServicesSection } from './sections/ServicesSection/ServicesSection';
-import { TeamSection } from './sections/TeamSection/TeamSection';
-import { TestimonialsSection } from './sections/TestimonialsSection/TestimonialsSection';
-import { ResourcesSection } from './sections/ResourcesSection/ResourcesSection';
-import { CallToActionSection } from './sections/CallToActionSection/CallToActionSection';
-import { MapSection } from './sections/MapSection/MapSection';
+import { TeamProfiles } from './sections/TeamProfiles/TeamProfiles';
+import { CompanyInfoSection } from './sections/CompanyInfoSection/CompanyInfoSection';
+import { NewsSection } from './sections/NewsSection/NewsSection';
 import { ContactSection } from './sections/ContactSection/ContactSection';
+import { MapSection } from './sections/MapSection/MapSection';
 import { FooterSection } from './sections/FooterSection/FooterSection';
+import { FluxBRVM } from './_components/FluxBRVM';
+import { ServicesSection } from './sections/ServicesSection/ServicesSection';
 
 const ElementLight: React.FC = () => (
   <>
-    <NavigationSection />
     <HeroSection />
+    <NavigationSection />
+    <FluxBRVM />
     <AboutUsSection />
     <ServicesSection />
-    <TeamSection />
-    <TestimonialsSection />
-    <ResourcesSection />
-    <CallToActionSection />
-    <MapSection />
+    <TeamProfiles />
+    <CompanyInfoSection />
+    <NewsSection />
     <ContactSection />
+    <MapSection />
     <FooterSection />
   </>
 );
