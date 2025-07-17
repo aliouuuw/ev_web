@@ -1,0 +1,408 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --macafricansgi-com-arial-bold-font-family: "Arial", Helvetica;
+  --macafricansgi-com-arial-bold-font-size: 19.200000762939453px;
+  --macafricansgi-com-arial-bold-font-style: normal;
+  --macafricansgi-com-arial-bold-font-weight: 700;
+  --macafricansgi-com-arial-bold-letter-spacing: 0px;
+  --macafricansgi-com-arial-bold-line-height: 28.799999237060547px;
+  --macafricansgi-com-arial-bold-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-arial-bold-upper-font-size: 15px;
+  --macafricansgi-com-arial-bold-upper-font-style: normal;
+  --macafricansgi-com-arial-bold-upper-font-weight: 700;
+  --macafricansgi-com-arial-bold-upper-letter-spacing: 0px;
+  --macafricansgi-com-arial-bold-upper-line-height: 15px;
+  --macafricansgi-com-arial-regular-font-family: "Arial", Helvetica;
+  --macafricansgi-com-arial-regular-font-size: 12.800000190734863px;
+  --macafricansgi-com-arial-regular-font-style: normal;
+  --macafricansgi-com-arial-regular-font-weight: 400;
+  --macafricansgi-com-arial-regular-letter-spacing: 0px;
+  --macafricansgi-com-arial-regular-line-height: 19.200000762939453px;
+  --macafricansgi-com-arial-regular-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-arial-regular-upper-font-size: 14px;
+  --macafricansgi-com-arial-regular-upper-font-style: normal;
+  --macafricansgi-com-arial-regular-upper-font-weight: 400;
+  --macafricansgi-com-arial-regular-upper-letter-spacing: 2px;
+  --macafricansgi-com-arial-regular-upper-line-height: 21px;
+  --macafricansgi-com-font-awesome-5-free-solid-font-family: "Font Awesome 5 Free",
+    Helvetica;
+  --macafricansgi-com-font-awesome-5-free-solid-font-size: 12px;
+  --macafricansgi-com-font-awesome-5-free-solid-font-style: normal;
+  --macafricansgi-com-font-awesome-5-free-solid-font-weight: 400;
+  --macafricansgi-com-font-awesome-5-free-solid-letter-spacing: 0px;
+  --macafricansgi-com-font-awesome-5-free-solid-line-height: 12px;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-font-family: "Font Awesome 5 Free",
+    Helvetica;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-font-size: 14.399999618530273px;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-font-style: normal;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-font-weight: 400;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-letter-spacing: 0px;
+  --macafricansgi-com-font-awesome-5-free-solid-upper-line-height: 14.399999618530273px;
+  --macafricansgi-com-inter-bold-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-bold-font-size: 1px;
+  --macafricansgi-com-inter-bold-font-style: normal;
+  --macafricansgi-com-inter-bold-font-weight: 700;
+  --macafricansgi-com-inter-bold-letter-spacing: 0px;
+  --macafricansgi-com-inter-bold-line-height: normal;
+  --macafricansgi-com-inter-bold-upper-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-bold-upper-font-size: 13px;
+  --macafricansgi-com-inter-bold-upper-font-style: normal;
+  --macafricansgi-com-inter-bold-upper-font-weight: 700;
+  --macafricansgi-com-inter-bold-upper-letter-spacing: 2px;
+  --macafricansgi-com-inter-bold-upper-line-height: 22.100000381469727px;
+  --macafricansgi-com-inter-italic-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-italic-font-size: 15.734375px;
+  --macafricansgi-com-inter-italic-font-style: italic;
+  --macafricansgi-com-inter-italic-font-weight: 400;
+  --macafricansgi-com-inter-italic-letter-spacing: 0px;
+  --macafricansgi-com-inter-italic-line-height: 32.29999923706055px;
+  --macafricansgi-com-inter-medium-upper-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-medium-upper-font-size: 12.4921875px;
+  --macafricansgi-com-inter-medium-upper-font-style: normal;
+  --macafricansgi-com-inter-medium-upper-font-weight: 500;
+  --macafricansgi-com-inter-medium-upper-letter-spacing: 2px;
+  --macafricansgi-com-inter-medium-upper-line-height: 22.100000381469727px;
+  --macafricansgi-com-inter-regular-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-regular-font-size: 12.800000190734863px;
+  --macafricansgi-com-inter-regular-font-style: normal;
+  --macafricansgi-com-inter-regular-font-weight: 400;
+  --macafricansgi-com-inter-regular-letter-spacing: 0px;
+  --macafricansgi-com-inter-regular-line-height: normal;
+  --macafricansgi-com-inter-regular-upper-font-family: "Inter", Helvetica;
+  --macafricansgi-com-inter-regular-upper-font-size: 13px;
+  --macafricansgi-com-inter-regular-upper-font-style: normal;
+  --macafricansgi-com-inter-regular-upper-font-weight: 400;
+  --macafricansgi-com-inter-regular-upper-letter-spacing: 2px;
+  --macafricansgi-com-inter-regular-upper-line-height: 22.100000381469727px;
+  --macafricansgi-com-lato-bold-font-family: "Lato", Helvetica;
+  --macafricansgi-com-lato-bold-font-size: 90px;
+  --macafricansgi-com-lato-bold-font-style: normal;
+  --macafricansgi-com-lato-bold-font-weight: 700;
+  --macafricansgi-com-lato-bold-letter-spacing: 0px;
+  --macafricansgi-com-lato-bold-line-height: 153px;
+  --macafricansgi-com-lato-light-font-family: "Lato", Helvetica;
+  --macafricansgi-com-lato-light-font-size: 70px;
+  --macafricansgi-com-lato-light-font-style: normal;
+  --macafricansgi-com-lato-light-font-weight: 300;
+  --macafricansgi-com-lato-light-letter-spacing: 0px;
+  --macafricansgi-com-lato-light-line-height: 119px;
+  --macafricansgi-com-lato-regular-font-family: "Lato", Helvetica;
+  --macafricansgi-com-lato-regular-font-size: 25px;
+  --macafricansgi-com-lato-regular-font-style: normal;
+  --macafricansgi-com-lato-regular-font-weight: 400;
+  --macafricansgi-com-lato-regular-letter-spacing: 0px;
+  --macafricansgi-com-lato-regular-line-height: 25px;
+  --macafricansgi-com-semantic-button-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-button-font-size: 13.300000190734863px;
+  --macafricansgi-com-semantic-button-font-style: normal;
+  --macafricansgi-com-semantic-button-font-weight: 400;
+  --macafricansgi-com-semantic-button-letter-spacing: 0px;
+  --macafricansgi-com-semantic-button-line-height: normal;
+  --macafricansgi-com-semantic-cell-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-cell-font-size: 11px;
+  --macafricansgi-com-semantic-cell-font-style: normal;
+  --macafricansgi-com-semantic-cell-font-weight: 700;
+  --macafricansgi-com-semantic-cell-letter-spacing: 0px;
+  --macafricansgi-com-semantic-cell-line-height: 16.5px;
+  --macafricansgi-com-semantic-data-font-family: "Font Awesome 5 Free",
+    Helvetica;
+  --macafricansgi-com-semantic-data-font-size: 12.800000190734863px;
+  --macafricansgi-com-semantic-data-font-style: normal;
+  --macafricansgi-com-semantic-data-font-weight: 400;
+  --macafricansgi-com-semantic-data-letter-spacing: 0px;
+  --macafricansgi-com-semantic-data-line-height: 12.800000190734863px;
+  --macafricansgi-com-semantic-heading-1-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-heading-1-upper-font-size: 37px;
+  --macafricansgi-com-semantic-heading-1-upper-font-style: normal;
+  --macafricansgi-com-semantic-heading-1-upper-font-weight: 700;
+  --macafricansgi-com-semantic-heading-1-upper-letter-spacing: 2px;
+  --macafricansgi-com-semantic-heading-1-upper-line-height: 44.400001525878906px;
+  --macafricansgi-com-semantic-heading-3-font-family: "Lato", Helvetica;
+  --macafricansgi-com-semantic-heading-3-font-size: 36px;
+  --macafricansgi-com-semantic-heading-3-font-style: normal;
+  --macafricansgi-com-semantic-heading-3-font-weight: 700;
+  --macafricansgi-com-semantic-heading-3-letter-spacing: 0px;
+  --macafricansgi-com-semantic-heading-3-line-height: 43.20000076293945px;
+  --macafricansgi-com-semantic-heading-3-upper-font-family: "Lato", Helvetica;
+  --macafricansgi-com-semantic-heading-3-upper-font-size: 18px;
+  --macafricansgi-com-semantic-heading-3-upper-font-style: normal;
+  --macafricansgi-com-semantic-heading-3-upper-font-weight: 900;
+  --macafricansgi-com-semantic-heading-3-upper-letter-spacing: 1.5px;
+  --macafricansgi-com-semantic-heading-3-upper-line-height: 21.600000381469727px;
+  --macafricansgi-com-semantic-heading-4-font-family: "Lato", Helvetica;
+  --macafricansgi-com-semantic-heading-4-font-size: 30px;
+  --macafricansgi-com-semantic-heading-4-font-style: normal;
+  --macafricansgi-com-semantic-heading-4-font-weight: 900;
+  --macafricansgi-com-semantic-heading-4-letter-spacing: 0px;
+  --macafricansgi-com-semantic-heading-4-line-height: 36px;
+  --macafricansgi-com-semantic-heading-5-font-family: "Lato", Helvetica;
+  --macafricansgi-com-semantic-heading-5-font-size: 20px;
+  --macafricansgi-com-semantic-heading-5-font-style: normal;
+  --macafricansgi-com-semantic-heading-5-font-weight: 900;
+  --macafricansgi-com-semantic-heading-5-letter-spacing: 0px;
+  --macafricansgi-com-semantic-heading-5-line-height: 24px;
+  --macafricansgi-com-semantic-heading-6-font-family: "Lato", Helvetica;
+  --macafricansgi-com-semantic-heading-6-font-size: 25px;
+  --macafricansgi-com-semantic-heading-6-font-style: normal;
+  --macafricansgi-com-semantic-heading-6-font-weight: 700;
+  --macafricansgi-com-semantic-heading-6-letter-spacing: 0px;
+  --macafricansgi-com-semantic-heading-6-line-height: 30px;
+  --macafricansgi-com-semantic-heading-6-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-heading-6-upper-font-size: 14.399999618530273px;
+  --macafricansgi-com-semantic-heading-6-upper-font-style: normal;
+  --macafricansgi-com-semantic-heading-6-upper-font-weight: 700;
+  --macafricansgi-com-semantic-heading-6-upper-letter-spacing: 0px;
+  --macafricansgi-com-semantic-heading-6-upper-line-height: 17.280000686645508px;
+  --macafricansgi-com-semantic-input-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-input-font-size: 16px;
+  --macafricansgi-com-semantic-input-font-style: normal;
+  --macafricansgi-com-semantic-input-font-weight: 400;
+  --macafricansgi-com-semantic-input-letter-spacing: 0px;
+  --macafricansgi-com-semantic-input-line-height: normal;
+  --macafricansgi-com-semantic-input-upper-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-semantic-input-upper-font-size: 13px;
+  --macafricansgi-com-semantic-input-upper-font-style: normal;
+  --macafricansgi-com-semantic-input-upper-font-weight: 700;
+  --macafricansgi-com-semantic-input-upper-letter-spacing: 0.800000011920929px;
+  --macafricansgi-com-semantic-input-upper-line-height: normal;
+  --macafricansgi-com-semantic-item-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-item-font-size: 14px;
+  --macafricansgi-com-semantic-item-font-style: normal;
+  --macafricansgi-com-semantic-item-font-weight: 600;
+  --macafricansgi-com-semantic-item-letter-spacing: 0px;
+  --macafricansgi-com-semantic-item-line-height: 32px;
+  --macafricansgi-com-semantic-item-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-item-upper-font-size: 9.600000381469727px;
+  --macafricansgi-com-semantic-item-upper-font-style: normal;
+  --macafricansgi-com-semantic-item-upper-font-weight: 700;
+  --macafricansgi-com-semantic-item-upper-letter-spacing: 0px;
+  --macafricansgi-com-semantic-item-upper-line-height: 9.600000381469727px;
+  --macafricansgi-com-semantic-label-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-label-font-size: 12.800000190734863px;
+  --macafricansgi-com-semantic-label-font-style: normal;
+  --macafricansgi-com-semantic-label-font-weight: 700;
+  --macafricansgi-com-semantic-label-letter-spacing: 0px;
+  --macafricansgi-com-semantic-label-line-height: 19.200000762939453px;
+  --macafricansgi-com-semantic-link-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-link-font-size: 16px;
+  --macafricansgi-com-semantic-link-font-style: normal;
+  --macafricansgi-com-semantic-link-font-weight: 400;
+  --macafricansgi-com-semantic-link-letter-spacing: 0px;
+  --macafricansgi-com-semantic-link-line-height: 27.200000762939453px;
+  --macafricansgi-com-semantic-link-upper-font-family: "Arial", Helvetica;
+  --macafricansgi-com-semantic-link-upper-font-size: 11px;
+  --macafricansgi-com-semantic-link-upper-font-style: normal;
+  --macafricansgi-com-semantic-link-upper-font-weight: 700;
+  --macafricansgi-com-semantic-link-upper-letter-spacing: 1.0000000000000002px;
+  --macafricansgi-com-semantic-link-upper-line-height: 18.700000762939453px;
+  --macafricansgi-com-semantic-options-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-options-font-size: 16px;
+  --macafricansgi-com-semantic-options-font-style: normal;
+  --macafricansgi-com-semantic-options-font-weight: 400;
+  --macafricansgi-com-semantic-options-letter-spacing: 0px;
+  --macafricansgi-com-semantic-options-line-height: 24px;
+  --macafricansgi-com-semantic-strong-font-family: "Source Sans Pro", Helvetica;
+  --macafricansgi-com-semantic-strong-font-size: 16px;
+  --macafricansgi-com-semantic-strong-font-style: normal;
+  --macafricansgi-com-semantic-strong-font-weight: 700;
+  --macafricansgi-com-semantic-strong-letter-spacing: 0px;
+  --macafricansgi-com-semantic-strong-line-height: 27.200000762939453px;
+  --macafricansgi-com-semantic-textarea-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-semantic-textarea-font-size: 15px;
+  --macafricansgi-com-semantic-textarea-font-style: normal;
+  --macafricansgi-com-semantic-textarea-font-weight: 400;
+  --macafricansgi-com-semantic-textarea-letter-spacing: 0px;
+  --macafricansgi-com-semantic-textarea-line-height: normal;
+  --macafricansgi-com-source-sans-pro-bold-upper-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-source-sans-pro-bold-upper-font-size: 9px;
+  --macafricansgi-com-source-sans-pro-bold-upper-font-style: normal;
+  --macafricansgi-com-source-sans-pro-bold-upper-font-weight: 700;
+  --macafricansgi-com-source-sans-pro-bold-upper-letter-spacing: 0px;
+  --macafricansgi-com-source-sans-pro-bold-upper-line-height: 9px;
+  --macafricansgi-com-source-sans-pro-regular-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-source-sans-pro-regular-font-size: 12px;
+  --macafricansgi-com-source-sans-pro-regular-font-style: normal;
+  --macafricansgi-com-source-sans-pro-regular-font-weight: 400;
+  --macafricansgi-com-source-sans-pro-regular-letter-spacing: 0px;
+  --macafricansgi-com-source-sans-pro-regular-line-height: 20.399999618530273px;
+  --macafricansgi-com-source-sans-pro-regular-upper-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-source-sans-pro-regular-upper-font-size: 14px;
+  --macafricansgi-com-source-sans-pro-regular-upper-font-style: normal;
+  --macafricansgi-com-source-sans-pro-regular-upper-font-weight: 400;
+  --macafricansgi-com-source-sans-pro-regular-upper-letter-spacing: 2px;
+  --macafricansgi-com-source-sans-pro-regular-upper-line-height: 23.799999237060547px;
+  --macafricansgi-com-source-sans-pro-semibold-font-family: "Source Sans Pro",
+    Helvetica;
+  --macafricansgi-com-source-sans-pro-semibold-font-size: 12px;
+  --macafricansgi-com-source-sans-pro-semibold-font-style: normal;
+  --macafricansgi-com-source-sans-pro-semibold-font-weight: 600;
+  --macafricansgi-com-source-sans-pro-semibold-letter-spacing: 0px;
+  --macafricansgi-com-source-sans-pro-semibold-line-height: 38px;
+  --macafricansgicomabbey: rgba(85, 85, 85, 1);
+  --macafricansgicomalabaster: rgba(252, 252, 252, 1);
+  --macafricansgicomallports: rgba(0, 111, 163, 1);
+  --macafricansgicomalto: rgba(206, 206, 206, 1);
+  --macafricansgicomanzac: rgba(230, 179, 86, 1);
+  --macafricansgicomapple: rgba(105, 188, 66, 1);
+  --macafricansgicomathens-gray: rgba(242, 242, 242, 1);
+  --macafricansgicomatlantis: rgba(114, 213, 74, 1);
+  --macafricansgicombittersweet: rgba(255, 114, 88, 1);
+  --macafricansgicomblack: rgba(0, 0, 0, 1);
+  --macafricansgicomblack-1: rgba(0, 0, 0, 0.01);
+  --macafricansgicomblack-125: rgba(0, 0, 0, 0.12);
+  --macafricansgicomblack-15: rgba(0, 0, 0, 0.15);
+  --macafricansgicomblack-20: rgba(0, 0, 0, 0.2);
+  --macafricansgicomblue-lagoon: rgba(0, 135, 145, 1);
+  --macafricansgicomblue-ribbon: rgba(51, 78, 255, 1);
+  --macafricansgicomblue-stone: rgba(2, 85, 108, 1);
+  --macafricansgicomblue-zodiac-70: rgba(13, 27, 62, 0.7);
+  --macafricansgicomboulder: rgba(124, 124, 124, 1);
+  --macafricansgicomcararra: rgba(233, 233, 224, 1);
+  --macafricansgicomcerulean: rgba(9, 157, 209, 1);
+  --macafricansgicomchestnut-rose: rgba(204, 75, 76, 1);
+  --macafricansgicomcod-gray: rgba(24, 24, 24, 1);
+  --macafricansgicomcod-gray-80: rgba(23, 23, 23, 0.8);
+  --macafricansgicomconcrete: rgba(242, 242, 242, 1);
+  --macafricansgicomcornflower-blue-30: rgba(102, 122, 255, 0.3);
+  --macafricansgicomdandelion: rgba(255, 220, 101, 1);
+  --macafricansgicomdodger-blue: rgba(74, 142, 255, 1);
+  --macafricansgicomdodger-blue-10: rgba(74, 142, 255, 0.1);
+  --macafricansgicomdove-gray: rgba(102, 102, 102, 1);
+  --macafricansgicomdusty-gray: rgba(153, 153, 153, 1);
+  --macafricansgicomelephant: rgba(17, 60, 72, 1);
+  --macafricansgicomemperor: rgba(85, 85, 85, 1);
+  --macafricansgicomforest-green: rgba(42, 150, 40, 1);
+  --macafricansgicomfun-green: rgba(0, 102, 51, 1);
+  --macafricansgicomgallery: rgba(239, 239, 239, 1);
+  --macafricansgicomgeyser: rgba(222, 226, 230, 1);
+  --macafricansgicomgeyser-90: rgba(222, 226, 230, 0.9);
+  --macafricansgicomgolden-grass: rgba(221, 153, 51, 1);
+  --macafricansgicomgray: rgba(131, 131, 131, 1);
+  --macafricansgicomguardsman-red: rgba(194, 4, 4, 1);
+  --macafricansgicomjacksons-purple-125: rgba(26, 54, 126, 0.12);
+  --macafricansgicomjapanese-laurel: rgba(1, 142, 17, 1);
+  --macafricansgicomlightning-yellow: rgba(247, 185, 36, 1);
+  --macafricansgicommariner: rgba(9, 157, 209, 1);
+  --macafricansgicommercury: rgba(226, 226, 226, 1);
+  --macafricansgicommine-shaft: rgba(45, 45, 45, 1);
+  --macafricansgicommischka: rgba(206, 212, 218, 1);
+  --macafricansgicommoon-mist: rgba(217, 215, 202, 1);
+  --macafricansgicommosque: rgba(2, 85, 108, 1);
+  --macafricansgicommountain-meadow: rgba(37, 211, 102, 1);
+  --macafricansgicomnobel: rgba(181, 181, 181, 1);
+  --macafricansgicompale-sky: rgba(108, 117, 125, 1);
+  --macafricansgicomporsche: rgba(230, 180, 91, 1);
+  --macafricansgicomprussian-blue: rgba(0, 46, 91, 1);
+  --macafricansgicomregal-blue: rgba(0, 75, 116, 1);
+  --macafricansgicomsaffron: rgba(246, 191, 64, 1);
+  --macafricansgicomshark: rgba(33, 37, 41, 1);
+  --macafricansgicomsilver: rgba(204, 204, 204, 1);
+  --macafricansgicomsilver-chalice: rgba(173, 173, 173, 1);
+  --macafricansgicomtimber-green: rgba(27, 46, 53, 1);
+  --macafricansgicomtorch-red: rgba(255, 0, 51, 1);
+  --macafricansgicomtundora: rgba(78, 78, 78, 1);
+  --macafricansgicomtussock: rgba(247, 185, 36, 1);
+  --macafricansgicomweb-orange: rgba(255, 165, 0, 1);
+  --macafricansgicomwedgewood: rgba(70, 124, 163, 1);
+  --macafricansgicomwhite: rgba(255, 255, 255, 1);
+  --macafricansgicomwhite-45: rgba(255, 255, 255, 0.45);
+  --macafricansgicomwhite-75: rgba(255, 255, 255, 0.75);
+  --macafricansgicomwild-sand: rgba(245, 245, 245, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
